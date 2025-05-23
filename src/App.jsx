@@ -247,7 +247,7 @@ function AccSettings() {
           </button>
           <h1 className="settings-title">Account Settings</h1>
           <div className="profile-section">
-            <img src={profile} alt="Profile" className="profile-img" /> {/* Placeholder image */}
+            <img src={profile} alt="Profile" className="profile-img\" /> {/* Placeholder image */}
             <div className="profile-info">
               <h2 className="profile-name">{name}</h2>
               <p className="profile-email">{email}</p>
