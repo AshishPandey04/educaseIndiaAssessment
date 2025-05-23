@@ -1,115 +1,86 @@
-# PopX
+# Educase
 
-## Technologies Used
+A modern React application built with Vite, featuring a clean and responsive user interface.
 
-- React.js
-- React Router for navigation
-- CSS3 for styling
-- Modern JavaScript (ES6+)
+## 🚀 Quick Start
 
-## Getting Started
-
-### Prerequisites
-
-- Node.js (v14.0.0 or higher)
-- npm (v6.0.0 or higher)
-
-### Installation
-
-1. Clone the repository:
 ```bash
-gh repo clone LivingWithPaaji/educase-india-assessment
-```
-
-2. Navigate to the project directory:
-```bash
-cd Educase-India-Assessment
-```
-
-3. Install dependencies:
-```bash
+# Install dependencies
 npm install
-```
 
-4. Start the development server:
-```bash
+# Start development server
 npm run dev
 ```
 
-The application will open in your default browser at `http://localhost:3000`.
+The application will be available at `http://localhost:5173`
 
-## Development Workflow
+## 🛠️ Tech Stack
 
-### Available Scripts
+- **Framework:** React 19
+- **Build Tool:** Vite 5
+- **Routing:** React Router 7
+- **Language:** TypeScript
+- **Linting:** ESLint 9
 
-In the project directory, you can run:
-
-```bash
-npm start        # Runs the app in development mode
-npm test         # Launches the test runner
-npm run dev      # Builds the app for production
-```
-
-## Project Structure
+## 📦 Project Structure
 
 ```
 src/
-├── App.jsx          # Main application component with routing
-├── App.css          # Global styles
-└── components/      # React components
+├── components/     # Reusable UI components
+├── pages/         # Page components
+├── assets/        # Static assets
+├── styles/        # Global styles
+└── types/         # TypeScript type definitions
 ```
 
-## Features in Detail
+## 🔧 Available Scripts
 
-### Create Account
-- Form validation for required fields
-- Input fields for:
-  - Full Name
-  - Phone Number
-  - Email Address
-  - Password
-  - Company Name
-  - Agency selection
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
-### Login
-- Email validation
-- Dynamic button state changes
-- Password field
-- Form validation
+## 🎨 Features
 
-### Account Settings
-- Displays user information
-- Profile section
-- Back navigation
-- Responsive layout
+- Modern React with TypeScript
+- Fast development with Vite
+- Clean and responsive UI
+- Type-safe development
+- ESLint for code quality
 
-## Styling Guidelines
+## 📝 Development Guidelines
 
-The project uses a consistent color scheme:
-- Primary Color: #7646ff
-- Secondary Color: #ede6fd
-- Text Colors: #232323, #666
-- Background Colors: #fafbfc, #fcfcfc
-
-## Troubleshooting
-
-Common issues and solutions:
-
-1. **Module not found errors**
-   - Run `npm install` to ensure all dependencies are installed
-   - Clear npm cache: `npm cache clean --force`
-
-2. **Port already in use**
-   - Kill the process using the port: `kill -9 $(lsof -t -i:3000)`
-   - Or use a different port: `PORT=3001 npm start`
-
-3. **Build errors**
-   - Clear build cache: `rm -rf build`
-   - Rebuild the project: `npm run build`
-
-### Code Style
-
-- Use consistent indentation (2 spaces)
-- Follow React best practices
+- Use TypeScript for type safety
+- Follow ESLint rules
 - Write meaningful commit messages
-- Add comments for complex logic
+- Keep components small and focused
+
+## 🔍 Troubleshooting
+
+If you encounter any issues:
+
+1. **Dependencies Issues**
+   ```bash
+   npm install
+   ```
+
+2. **Development Server Issues**
+   ```bash
+   # Clear node_modules and reinstall
+   rm -rf node_modules
+   npm install
+   ```
+
+3. **Build Issues**
+   ```bash
+   # Clear build cache
+   npm run build --force
+   ```
+
+## 📄 License
+
+This project is private and confidential.
+
+---
+
+Made with ❤️ using React and Vite
