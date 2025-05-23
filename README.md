@@ -19,7 +19,7 @@ The application will be available at `http://localhost:5173`
 - **Framework:** React 19
 - **Build Tool:** Vite 5
 - **Routing:** React Router 7
-- **Language:** TypeScript
+- **Language:** JavaScript
 - **Linting:** ESLint 9
 
 ## 📦 Project Structure
@@ -42,18 +42,13 @@ src/
 
 ## 🎨 Features
 
-- Modern React with TypeScript
+- Modern React with JavaScript
 - Fast development with Vite
 - Clean and responsive UI
 - Type-safe development
 - ESLint for code quality
 
-## 📝 Development Guidelines
 
-- Use TypeScript for type safety
-- Follow ESLint rules
-- Write meaningful commit messages
-- Keep components small and focused
 
 ## 🔍 Troubleshooting
 
